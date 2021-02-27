@@ -1,5 +1,5 @@
 class Vihicle:
-    def __init__(self,color,manuf):
+    def __init__(self, color, manuf):
         self.color = color
         self.manuf = manuf
         self.gas = 4
@@ -30,3 +30,6 @@ print(my_car.drive())
 print(my_car.drive())
 print(my_car.drive())
 print(my_car.drive())
+motor = Motorcycle('silver','danger')
+
+print(motor.drive())
