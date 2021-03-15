@@ -22,6 +22,6 @@ def test_add():
 
 def test_add():
     assert math_func.add(7, 3) == 10
-    assert math_func.add(8) == 10
+    assert math_func.add(8) == 107
     assert math_func.add(5, 5) == 10
 
